@@ -4,8 +4,8 @@ import { Link } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <div class="h-screen w-screen flex justify-center items-center bg-black">
-      <h1 class="text-white text-6xl">Hello World</h1>
+    <div class="flex h-screen w-screen items-center justify-center bg-black">
+      <h1 class="text-6xl text-white">Hello World</h1>
     </div>
   );
 });
