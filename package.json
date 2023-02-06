@@ -6,7 +6,8 @@
     "email": "samansb@gmail.com"
   },
   "engines": {
-    "node": ">=15.0.0"
+    "node": "18.12",
+    "npm": ">=8.0.0 <9.0.0"
   },
   "private": true,
   "scripts": {
@@ -23,17 +24,21 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik"
+    "qwik": "qwik",
+    "cy:run": "cypress run --browser chrome",
+    "cy:open": "cypress open --browser chrome"
   },
   "devDependencies": {
     "@builder.io/qwik": "0.17.4",
     "@builder.io/qwik-city": "0.0.128",
+    "@testing-library/cypress": "^9.0.0",
     "@types/eslint": "8.21.0",
     "@types/node": "^18.11.18",
     "@types/node-fetch": "latest",
     "@typescript-eslint/eslint-plugin": "5.50.0",
     "@typescript-eslint/parser": "5.50.0",
     "autoprefixer": "10.4.11",
+    "cypress": "^12.5.1",
     "eslint": "8.33.0",
     "eslint-plugin-qwik": "0.17.4",
     "node-fetch": "3.3.0",
