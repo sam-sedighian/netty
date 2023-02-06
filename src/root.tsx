@@ -34,7 +34,7 @@ export default component$(() => {
         />
         <RouterHead />
       </head>
-      <body lang="en" class="font-raleway">
+      <body lang="en" class="font-raleway text-white">
         <RouterOutlet />
         <ServiceWorkerRegister />
       </body>
