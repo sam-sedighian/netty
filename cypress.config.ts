@@ -3,6 +3,7 @@ import { defineConfig } from 'cypress';
 export default defineConfig({
   projectId: 't3mwg9',
   videoUploadOnPasses: false,
+  video: false,
   e2e: {
     baseUrl: 'https://netty.vercel.app',
     setupNodeEvents(on, config) {
