@@ -958,10 +958,10 @@
     source-map "0.7.4"
     vfile "5.3.6"
 
-"@builder.io/qwik@0.17.4":
-  version "0.17.4"
-  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-0.17.4.tgz#06e01ac7211a2c6997562d06ee3e68a25f7b4c2f"
-  integrity sha512-f/qYBczshaDabtjlcpyupIpiyxi8PS/YCMSs+pIBoKlqbpVRsTZBdE5MP2hJ1HO5YAPu2+0T8qmB5IFucmXX7g==
+"@builder.io/qwik@0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@builder.io/qwik/-/qwik-0.21.0.tgz#da967259a79f1aa45c23ea0dc395608c74a543b0"
+  integrity sha512-YDQcCSGPgXLQkY260N4XvYavxPNHewzIzIjqbl9hvnnk7a1s4EkcCrkudbGCl6VkkiQsDKMYPsemy4sFpKlafg==
 
 "@colors/colors@1.5.0":
   version "1.5.0"
